@@ -1,0 +1,6 @@
+rootProject.name = "HPWebView"
+include ':app'
+include ':lib_web'
+include ':lib_common'
+include ':lib_base'
+include ':lib_usercenter'

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.happy.lib_web">
+
+    <application android:usesCleartextTraffic="true">
+        <activity
+            android:name=".WebViewActivity"
+            android:process=":hpWeb" />
+        <service android:name=".mainprocess.MainProcessCommandService" />
+    </application>
+</manifest>
