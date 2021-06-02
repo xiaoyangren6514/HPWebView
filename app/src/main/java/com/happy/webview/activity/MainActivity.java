@@ -27,8 +27,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (webViewService != null) {
 //                    外部网页
 //                    webViewService.startWebViewActivity(this, "http://www.baidu.com", "baidu");
+                    webViewService.startWebViewActivity(this, "http://www.baidu.com", "baidu");
 //                    内置测试页面
-                    webViewService.startDemoHtml(this);
+//                    webViewService.startDemoHtml(this);
                 }
 //                startActivity(new Intent(this, WebViewActivity.class));
                 break;
